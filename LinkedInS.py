@@ -591,10 +591,10 @@ for i in scrappedD:
     table.append(html_table)
 
 # Set up email credentials
-username = 'romain.afelt@gmail.com'
-password = 'qwrm trmj uuzu pfpj'
-#username = 'romain.afelt@hesge.ch'
-#password = 'EgO-sUm1989@'
+username = 'username'
+password = 'password'
+#username = 'username'
+#password = 'password'
 
 def sendMail():
    # Choose a random quote from the list
@@ -609,7 +609,7 @@ def sendMail():
   
      # Create the email message
     msg = MIMEMultipart() 
-    msg['To'] = "romain.afelt@gmail.com, romain.afelt@hesge.ch" 
+    msg['To'] = "your email" 
     msg['From'] = username 
     msg['Subject'] = "We scrapped a List of Jobs for you!"
   
